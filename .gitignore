@@ -1,0 +1,77 @@
+# Entornos virtuales
+venv/
+.venv/
+env/
+ENV/
+.conda/
+
+# Cachés y artefactos de Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Configuración de IDEs y editores
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+
+# Ficheros temporales y del sistema operativo
+*.tmp
+*.bak
+*.log
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Jupyter Notebooks (checkpoints)
+.ipynb_checkpoints/
+
+# Variables de entorno y secretos
+.env
+*.key
+*.pem
+
+# Datos pesados (se mantienen las carpetas mediante .gitkeep)
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+data/external/*
+!data/external/.gitkeep
+
+# Modelos entrenados y artefactos pesados
+models/*
+!models/.gitkeep
+*.pkl
+*.joblib
+*.h5
+*.hdf5
+*.pt
+*.pth
+*.onnx
+*.safetensors
+mlruns/
